@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/PRRPRR01,Uppgift 1-5.unity
+  isLoaded: 1
+  isActive: 1
