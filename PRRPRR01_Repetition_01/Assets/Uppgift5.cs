@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Uppgift5 : MonoBehaviour
-{
+public class Uppgift5 : MonoBehaviour {
 
     int num1 = 5;
     int num2 = 5;
@@ -13,12 +12,18 @@ public class Uppgift5 : MonoBehaviour
     public void Start()
     {
         int ab = Add(5, 5);
+        {
+            if(max > ab && ab < min)
+            {
+                print(ab);
+            }
+        }
     }
 
     public int Add(int a, int b)
     {
         return a + b;
+        {
+        }
     }
-
-    if( 
 }
